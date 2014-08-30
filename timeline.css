@@ -1,0 +1,119 @@
+/* CSS Document */
+
+#legend, #description, #help {
+	padding:10px;
+	margin-left:50px;
+	border:1px solid #CCCCCC;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	box-shadow:0px 0px 15px #CCCCCC;
+	-webkit-box-shadow:0px 0px 15px #CCCCCC;
+	-moz-box-shadow:0px 0px 15px #CCCCCC;
+	float:left;
+	height:90px;
+}
+
+#help {
+	width:150px;
+}
+
+#legend ul {
+	list-style:none;
+	margin:0px 20px;
+}
+
+a {
+	display:inline-block;
+	padding:0px 3px;
+	text-decoration:none;
+	background-color:#EEEEEE;
+	color:#666666;
+	border-bottom:1px dotted #333333;
+}
+
+a:hover {
+	color:#000000;
+	border-bottom:1px solid #333333;
+}
+
+#timeline {
+	clear:both;
+	top:25px;
+}
+
+.timeline-band-0 .timeline-band-inner {
+	top:-2px;
+	border-bottom:1px solid #EEEEEE;
+}
+
+.timeline-band-1 .timeline-band-inner {
+	top:-1px;
+	border-bottom:1px solid #EEEEEE;
+}
+
+.timeline-band-0 .timeline-date-label,
+.timeline-band-1 .timeline-date-label,
+.timeline-band-2 .timeline-date-label:not(.timeline-date-label-em),
+.timeline-event-bubble-time {
+	display:none;
+}
+
+.timeline-band-0 .timeline-ether-bg {
+	background-color: #FFFFFF;
+}
+.timeline-band-1 .timeline-ether-bg {
+	background-color: #FFFFFF;
+}
+.timeline-band-2 .timeline-ether-bg {
+	background-color: #FFFFFF;
+}
+.timeline-band-3 .timeline-ether-bg {
+	background-color: #DDDDDD;
+}
+/*.timeline-band-4 .timeline-ether-bg {
+	background-color: #EEEEEE;
+}*/
+
+.timeline-band-0 .timeline-event-tape,
+.timeline-band-0 .timeline-small-event-tape {
+	background-color:blue;
+}
+
+.timeline-band-1 .timeline-event-tape,
+.timeline-band-1 .timeline-small-event-tape {
+	background-color:red;
+}
+
+.timeline-band-2 .timeline-event-tape,
+.timeline-band-2 .timeline-small-event-tape {
+	background-color:green;
+}
+
+.timeline-event-bubble-body {
+	padding:10px 0px;
+	color:#666666;
+}
+
+.timeline-event-bubble-title {
+	border-bottom:0px;
+}
+
+.timeline-event-bubble-title a {
+	display:block;
+}
+
+.timeline-event-label {
+	font-size:13px;
+}
+
+.timeline-event-label span,
+.timeline-event-bubble-title span {
+	color:#666666;
+	padding-left:5px;
+}
+
+.timeline-event-icon {
+	/*top:2px !important;*/
+	margin-top:-5px;
+}

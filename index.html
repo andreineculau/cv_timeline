@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>timeline - Andrei Neculau</title>
+	<script type="text/javascript">
+		host = window.location.protocol + '//' + window.location.host;
+		Timeline_ajax_url = host + '/timeline_2.3.0/timeline_ajax/simile-ajax-api.js';
+		Timeline_urlPrefix = host + '/timeline_2.3.0/timeline_js/';
+		Timeline_parameters = 'bundle=true';
+	</script>
+	<script src="timeline_2.3.0/timeline_js/timeline-api.js" type="text/javascript"></script>
+	<script src="timeline_funcs.js" type="text/javascript"></script>
+	<script src="timeline_events.js" type="text/javascript"></script>
+	<script src="timeline_data.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="timeline.css" />
+</head>
+
+<body onload="onLoad();" onresize="onResize();">
+	<div id="description">
+		<h1>timeline - Andrei Neculau</h1>
+	</div>
+	<div id="help">
+		Most recent events are shown from the start.<br />
+		Drag the timeline to the right to go back in time.
+	</div>
+	<div id="legend">
+		<b>Legend</b>
+		<ul>
+			<li><img src="timeline_2.3.0/timeline_js/images/dull-blue-circle.png"> Education</li>
+			<li><img src="timeline_2.3.0/timeline_js/images/dull-red-circle.png"> IT Experience</li>
+			<li><img src="timeline_2.3.0/timeline_js/images/dull-green-circle.png"> Mixed Experience</li>
+		</ul>
+	</div>
+	<div id="timeline" style="height:650px; width:100%">
+	</div>
+</body>
+</html>
